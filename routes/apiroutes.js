@@ -1,9 +1,9 @@
-// const db = require("../models");
+const db = require("../models");
 
 module.exports = function(app) {
   app.get("/api/workouts", function(req, res) {
-    // db.Image.find({}).then(function(dbImages) {
-    //   res.json(dbImages);
+    // db.Workout.find({}).then(function(dbWorkout) {
+    //   res.json(dbWorkout);
     // });
     res.send('Route Gotten')
   });
