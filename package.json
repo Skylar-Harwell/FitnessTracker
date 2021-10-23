@@ -1,0 +1,25 @@
+{
+  "name": "fitnesstracker",
+  "version": "1.0.0",
+  "description": "Fitness Tracker App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skylar-Harwell/FitnessTracker.git"
+  },
+  "author": "Skylar Harwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skylar-Harwell/FitnessTracker/issues"
+  },
+  "homepage": "https://github.com/Skylar-Harwell/FitnessTracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "logger": "0.0.1",
+    "mongojs": "^3.1.0"
+  }
+}
